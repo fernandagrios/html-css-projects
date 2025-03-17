@@ -1,0 +1,253 @@
+/* styles Elevate page */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f1f1f1;
+}
+
+/* ----------------------------------- */
+/* general */
+
+.text-center {
+  text-align: center;
+}
+
+.margin-to-40 {
+  margin-top: 40px;
+}
+
+/* -------HEADER---------- */
+
+.container-header {
+  background-color: #373643;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-header h3 {
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.container-header h1 {
+  font-weight: 100;
+  font-size: 1em;
+}
+
+/* -------NAV---------- */
+
+.container-nav {
+  text-align: center;
+  padding: 20px;
+  background-color: #35353a;
+}
+
+.container-nav a {
+  color: #f1f1f1;
+  text-decoration: none;
+  margin: 0px 50px;
+  font-size: 1.5em;
+}
+
+.container-nav a:hover {
+  color: #18cb96;
+}
+
+/* -------ABOUT---------- */
+.container-about {
+  background-color: #f1f1f100;
+  overflow: auto;
+}
+
+.container-about .service {
+  float: center;
+  text-align: center;
+  background-color: #35353a;
+  margin: 60px auto;
+  width: 50%;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.container-about .service .icon {
+  margin-bottom: 1px;
+  width: 100px;
+  height: 100 px;
+}
+
+.container-about .service .service-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #f1f1f1;
+}
+
+.container-about .service-highlight {
+  color: #18cb96;
+  font-weight: bold;
+}
+
+/* SERVICES AND CONTACT */
+
+.container-services-contact {
+  text-align: center;
+  background-color: #35353a;
+  padding: 80px;
+}
+
+.container-services-contact h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.container-services-contact .container-services-contact-bottom {
+  padding: 30px;
+  text-align: center;
+}
+
+.container-services-contact-bottom a {
+  color: #35353a;
+  text-decoration: none;
+  display: block;
+  max-width: 200px;
+  font-size: 1.1em;
+  font-weight: 550;
+  background-color: #f1f1f1;
+  padding: 20px 60px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.container-services-contact-bottom a:hover {
+  background-color: #18cb96;
+  color: #f1f1f1;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: #f1f1f1;
+  color: #35353a;
+}
+
+/* SERVICES PAGE */
+
+.container-services {
+  background-color: #f1f1f1;
+  color: #35353a;
+  font-size: 1.1em;
+  padding: 60px;
+  overflow: auto;
+}
+
+.container-services h1 {
+  color: #35353a;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.container-services h3 {
+  color: #18cb96;
+  padding: 20px 0;
+}
+
+.container-services article {
+  width: 40%;
+  margin: auto;
+}
+
+.container-services li {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+/* CONTACT PAGE */
+.container-contact {
+  background-color: #f1f1f1;
+  padding: 80px;
+  color: #35353a;
+}
+
+.container-contact h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.container-contact h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid #686869;
+  background-color: #35353a;
+  color: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container-contact .contact {
+  display: block;
+  font-size: 2em;
+  text-decoration: none;
+  color: #18cb96;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.container-contact .contact-icon {
+  margin-bottom: 0px;
+  width: 80px;
+  height: 80px;
+}
+
+/* TEAMS PAGE */
+
+.container-teams {
+  background-color: #f1f1f1;
+  font-size: 1.1em;
+  padding: 60px;
+  overflow: auto;
+}
+
+.container-teams h1 {
+  color: #35353a;
+  font-size: 3em;
+  margin-bottom: 0px;
+}
+
+.container-teams h3 {
+  color: #35353a;
+  padding: 20px 0;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 0px;
+}
+
+.container-teams .teams {
+  float: center;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: #35353a;
+  margin: 0px auto;
+  width: 50%;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.container-about .teams .teams-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0px;
+  font-size: 1.2em;
+}
+
+.container-teams .teams .picture {
+  margin-bottom: 0px;
+  width: 60%;
+  float: center;
+}
